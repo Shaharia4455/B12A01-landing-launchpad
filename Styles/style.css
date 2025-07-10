@@ -54,3 +54,26 @@ nav h3{
     display: flex;
     justify-content: center;
 }
+/* Action Style */
+.action-section{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 116px 150px;
+    justify-content: space-between;
+}
+.action-img{
+    border-radius: 48px;
+}
+.action{
+    display: block;
+}
+.action-titel{
+    font-size: 43px;
+    font-weight: bold;
+}
+.action-sub-titel{
+    max-width: 70%;
+    font-size: 24px;
+    color: #252432;
+}
