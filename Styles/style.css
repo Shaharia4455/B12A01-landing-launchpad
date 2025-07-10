@@ -14,7 +14,14 @@
 .img-bg{
     background-image: url(../Assets/Hero-bg.png);
 }
-
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -57,9 +64,8 @@ nav h3{
 /* Action Style */
 .action-section{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
-    padding: 116px 150px;
+    margin: 116px auto; 
     justify-content: space-between;
 }
 .action-img{
@@ -75,5 +81,33 @@ nav h3{
 .action-sub-titel{
     max-width: 70%;
     font-size: 24px;
-    color: #252432;
+    color: rgba(0, 0, 0, 0.5);
+}
+ /* Productive Users Section */
+.product-user-section{
+   background-color: rgba(78, 71, 255, 0.12);
+   margin: 116px auto;
+   padding: 50px 142px;
+   border-radius: 24px;
+}
+.product-user-titel{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.product-user{
+    display: flex;
+    justify-content: space-around;
+}
+.user-titel{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0%;
+}
+.user-sub-titel{
+ font-size: 20px;
+ color: rgba(0, 0, 0, 0.5);
+ margin-top: 0%;
 }
