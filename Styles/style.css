@@ -1,9 +1,18 @@
 
-
+/* font style */
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.img-bg{
+    background-image: url(../Assets/Hero-bg.png);
 }
 
 /* nav styles */
@@ -29,4 +38,19 @@ nav h3{
     color: #FFFFFF;
     background-color: #4E47FF;
 
+}
+/* Beaner Style */
+.beaner-section{
+    display: block;
+    justify-content: center;
+    padding: 158px 260px;
+}
+.beaner-titel{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+}
+.beaner-btn{
+    display: flex;
+    justify-content: center;
 }
