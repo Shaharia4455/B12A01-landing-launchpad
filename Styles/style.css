@@ -219,3 +219,25 @@ footer a{
     font-size: 24px;
     font-weight: 700;
 }
+/* Reddy to focus better  */
+.focud-section{
+    text-align: center;
+    margin: 70px 0;
+}
+.focud-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.focus-discription{
+    color: rgba(0, 0, 0, 0.5);
+    margin: 10px 0;
+
+}
+.focus-btn{
+    margin: 10px 0;
+}
+.focus-img{
+    margin: 10px 0;
+    border-radius: 48px;
+}
