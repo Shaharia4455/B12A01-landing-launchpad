@@ -115,6 +115,8 @@ nav h3{
 .touch-section{
     display: flex;
     justify-content: space-between;
+    padding: 70px 0;
+    background-color: rgba(245, 238, 238, 0.42);
     
 }
 .touch-section-titel{
@@ -169,4 +171,51 @@ footer{
 footer a{
     text-decoration: none;
     color: rgba(137, 135, 161, 1);
+}
+/* Users’ Feedback Section */
+.feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.feedback-bar{
+    display: flex;
+    gap: 20px;
+}
+.feedback{
+    padding: 24px;
+    background-color: rgba(245, 226, 226, 0.5);
+    border-radius: 14px;
+}
+.feedback-who{
+    display: flex;
+    align-items: center;
+    
+}
+.feed-info{
+    margin-left: 12px;
+    margin-bottom: 0%;
+    padding: 0%;
+}
+.feedback-profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 9999px;
+}
+.feedback-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(117, 117, 117, 1);
+    margin: 0%;
+    margin-bottom: 3px;
+}
+.feedback-date{
+    font-size: 16px;
+    color: rgba(179, 179, 179, 1);
+    margin: 0%;
+}
+.feedback-titel-name{
+    font-size: 24px;
+    font-weight: 700;
 }
