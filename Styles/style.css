@@ -111,3 +111,28 @@ nav h3{
  color: rgba(0, 0, 0, 0.5);
  margin-top: 0%;
 }
+/* Let’s Get In Touch Section */
+.touch-section{
+    display: flex;
+    justify-content: space-between;
+}
+.touch-section-titel{
+    font-size: 97px;
+    font-weight: bold;
+    width: 528px;
+}
+form input[type="text"], form input[type="email"], form textarea{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(171, 176, 227, 0.65);
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: block;
+    height: 60px;
+    width: 490px;
+    padding: 10px 20px;
+    margin-bottom: 19px;
+    font-size: 20px;
+}
+.textarea-hight{
+    height: 135px;
+}
