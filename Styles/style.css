@@ -44,7 +44,15 @@ nav h3{
     padding: 12px 36px;
     color: #FFFFFF;
     background-color: #4E47FF;
+    transition: 1s;
+    cursor: pointer;
 
+}
+.btn-primari:hover{
+    background-color: rgb(247, 200, 12);
+    color: black;
+    transition: 1s;
+    font-size: 18px;
 }
 /* Beaner Style */
 .beaner-section{
@@ -186,6 +194,8 @@ footer a{
     padding: 24px;
     background-color: rgba(245, 226, 226, 0.5);
     border-radius: 14px;
+    border: none;
+    box-shadow: 0 0 20px 0 ;
 }
 .feedback-who{
     display: flex;
